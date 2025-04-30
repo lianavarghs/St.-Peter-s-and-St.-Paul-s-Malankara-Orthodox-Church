@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>St. Peter’s and St. Paul’s Malankara Orthodox Church</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; scroll-behavior: smooth; }
+    body { font-family: 'Georgia', serif; background-color: #f9f9f9; color: #333; line-height: 1.6; }
+    nav { background-color: #0a2342; padding: 1rem; position: sticky; top: 0; z-index: 1000; display: flex; justify-content: center; flex-wrap: wrap; }
+    nav a { color: #ffd700; margin: 0 20px; text-decoration: none; font-size: 1.1rem; font-weight: bold; }
+    nav a:hover { color: white; }
+    header { background: url('https://images.unsplash.com/photo-1583219343028-9449a7aa302f') no-repeat center center/cover; height: 90vh; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; color: white; background-blend-mode: overlay; background-color: rgba(10, 35, 66, 0.6); }
+    header h1 { font-size: 3rem; margin-bottom: 1rem; padding: 0 1rem; }
+    header p { font-size: 1.5rem; margin-bottom: 2rem; padding: 0 1rem; }
+    .btn { padding: 12px 25px; background-color: #ffd700; color: #0a2342; border: none; border-radius: 5px; font-size: 1.2rem; font-weight: bold; text-decoration: none; transition: background-color 0.3s ease; cursor: pointer; }
+    .btn:hover { background-color: #e6c200; }
+    section { padding: 4rem 2rem; max-width: 1200px; margin: auto; }
+    section h2 { text-align: center; color: #0a2342; margin-bottom: 2rem; font-size: 2.5rem; }
+    .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; }
+    .card { background: white; padding: 2rem; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); text-align: center; transition: transform 0.3s ease; }
+    .card:hover { transform: translateY(-10px); }
+    .verse { background-color: #e6e6e6; padding: 3rem; text-align: center; font-style: italic; font-size: 1.5rem; color: #0a2342; margin: 3rem 0; border-left: 5px solid #ffd700; border-right: 5px solid #ffd700; }
+    .slideshow-container { position: relative; max-width: 1000px; margin: auto; overflow: hidden; border-radius: 10px; }
+    .slide { display: none; width: 100%; }
+    .slide img { width: 100%; height: 500px; object-fit: cover; }
+    .newsletter { background-color: #0a2342; color: white; text-align: center; padding: 3rem 2rem; border-radius: 10px; margin-top: 3rem; }
+    .newsletter input[type="email"] { padding: 10px; width: 250px; border: none; border-radius: 5px; margin-right: 10px; }
+    .newsletter button { padding: 10px 20px; background-color: #ffd700; color: #0a2342; border: none; border-radius: 5px; font-weight: bold; cursor: pointer; transition: background-color 0.3s ease; }
+    .newsletter button:hover { background-color: #e6c200; }
+    .events ul { list-style: none; text-align: center; font-size: 1.2rem; padding: 0; }
+    .events li { margin-bottom: 1rem; }
+    .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; padding: 2rem; }
+    .gallery img { width: 100%; height: 300px; object-fit: cover; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); transition: transform 0.3s ease; }
+    .gallery img:hover { transform: scale(1.05); }
+    footer { background-color: #0a2342; color: #ffd700; text-align: center; padding: 1rem; margin-top: 4rem; font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#ministries">Ministries</a>
+  <a href="#events">Events</a>
+  <a href="#gallery">Gallery</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<header id="home">
+  <h1>St. Peter’s and St. Paul’s<br>Malankara Orthodox Church</h1>
+  <p>Rooted in Faith. Growing in Love.</p>
+  <a href="#about" class="btn">Learn More</a>
+</header>
+
+<section id="about">
+  <h2>About Us</h2>
+  <p style="text-align:center; max-width:800px; margin: auto;">
+    Welcome to St. Peter’s and St. Paul’s Malankara Orthodox Church, a vibrant faith community rooted in the ancient Orthodox Christian tradition.
+    We are dedicated to worship, fellowship, service, and spiritual growth, guided by the teachings of Christ and the Apostolic Church.
+  </p>
+</section>
+
+<section id="ministries">
+  <h2>Our Ministries</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>Sunday School</h3>
+      <p>Teaching our children the love and word of God through interactive classes and activities.</p>
+    </div>
+    <div class="card">
+      <h3>Choir Ministry</h3>
+      <p>Leading the congregation in worship with beautiful hymns and spiritual songs.</p>
+    </div>
+    <div class="card">
+      <h3>Charity & Outreach</h3>
+      <p>Serving our community with compassion through food drives, visits, and support programs.</p>
+    </div>
+  </div>
+</section>
+
+<section class="verse">
+  “I can do all things through Christ who strengthens me.” — Philippians 4:13
+</section>
+
+<section class="slideshow-container">
+  <div class="slide"><img src="https://images.unsplash.com/photo-1559113811-2914bfa6a894" alt="Church Event 1"></div>
+  <div class="slide"><img src="https://images.unsplash.com/photo-1590608897129-79da3dd9d2c6" alt="Worship Service"></div>
+  <div class="slide"><img src="https://images.unsplash.com/photo-1583614475996-fc7f4c1dc3d3" alt="Community Gathering"></div>
+</section>
+
+<section class="newsletter">
+  <h2>Subscribe to Our Newsletter</h2>
+  <p>Stay connected with our latest news, events, and services.</p>
+  <form action="#" method="post">
+    <input type="email" name="email" placeholder="Enter your email" required>
+    <button type="submit">Subscribe</button>
+  </form>
+</section>
+
+<section id="events" class="events">
+  <h2>Upcoming Events</h2>
+  <ul>
+    <li><strong>May 5:</strong> Youth Bible Study @ 6:00 PM</li>
+    <li><strong>May 12:</strong> Mother's Day Special Service @ 10:00 AM</li>
+    <li><strong>May 19:</strong> Community Outreach Program</li>
+    <li><strong>May 26:</strong> Choir Concert Night @ 7:00 PM</li>
+  </ul>
+</section>
+
+<section id="gallery">
+  <h2>Photo Gallery</h2>
+  <div class="gallery">
+    <img src="https://images.unsplash.com/photo-1570829460005-b08a4445c5ae" alt="Service">
+    <img src="https://images.unsplash.com/photo-1577301081168-3b9c0c58e2b5" alt="Children's Ministry">
+    <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945" alt="Community Event">
+    <img src="https://images.unsplash.com/photo-1610878180933-ec0997c87c56" alt="Worship Night">
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <p style="text-align:center;">📍 123 Church Street, Your City, Your State</p>
+  <p style="text-align:center;">📞 (123) 456-7890</p>
+  <p style="text-align:center;">✉️ info@stpeterpaulorthodox.org</p>
+</section>
+
+<footer>
+  &copy; 2025 St. Peter’s and St. Paul’s Malankara Orthodox Church. All Rights Reserved.
+</footer>
+
+<script>
+  let slideIndex = 0;
+  showSlides();
+
+  function showSlides() {
+    let slides = document.getElementsByClassName("slide");
+    for (let i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) { slideIndex = 1; }
+    slides[slideIndex - 1].style.display = "block";
+    setTimeout(showSlides, 3000);
+  }
+</script>
+
+</body>
+</html>
